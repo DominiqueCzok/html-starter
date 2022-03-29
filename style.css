@@ -1,22 +1,20 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Oswald", sans-serif;
+h1, h2, h3 {
+    font-family: Hylia;
 }
-body 
-{
-    margin: 50;
-  }
+
+@font-face {
+    font-family: Hylia;
+    src: url(HyliaSerifBeta-Regular.ttf);
+}
