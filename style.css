@@ -4,6 +4,7 @@ box-sizing: border-box;
 
 html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -20,11 +21,23 @@ h1, h2, h3 {
 }
 
 .header {
-    padding: 58px 16px;
-    padding-top: 72px;
+    padding: 3rem 1rem;
+    padding-top: 4,5rem;
     text-align: center;
     background: #86a5a9;
     position: relative;
+}
+
+.heading-group {
+    font-size: 3rem;
+}
+  
+.main-heading {
+    font-size: 1em;
+}
+  
+.profession {
+    font-size: 1,5em;
 }
 
 .flex { 
@@ -36,10 +49,10 @@ h1, h2, h3 {
 .hire-me {
     font-family: hylia;
     position: absolute;
-    right: 16px;
-    top: 16px;
-    padding: 8px;
-    border-radius: 4px;
+    right: 1rem;
+    top: 1rem;
+    padding: 0,5rem;
+    border-radius: 0,25rem;
     background: #fdffe0;
     color: #633200;
 }
@@ -47,10 +60,10 @@ h1, h2, h3 {
 .main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 1rem;
 }
 .nav-link {
-    padding: 4px 8px;
+    padding: 0,25rem 0,5rem;
     color: black;
 }
 
@@ -65,18 +78,18 @@ h1, h2, h3 {
 }
 
 .main {
-    max-width: 800px;
+    max-width: 80ch;
     margin: 0 auto;
-    padding: 16px;
+    padding: 1rem;
 }
   
 .main > * + * {
-    margin-top: 48px;
+    margin-top: 3rem;
 }
   
 .main > * {
-    border-top: 2px solid grey;
-    padding: 0 16px;
+    border-top: 0,125rem solid grey;
+    padding: 0 1rem;
 }
   
 .main > *:first-child {
@@ -85,7 +98,7 @@ h1, h2, h3 {
 
 .article-heading {
     position: relative;
-    left: -16px;
+    left: -1rem;
 }
 
 .experience-heading {
