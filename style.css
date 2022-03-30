@@ -21,8 +21,10 @@ h1, h2, h3 {
 
 .header {
     padding: 58px 16px;
+    padding-top: 72px;
     text-align: center;
-    background: #86a5a9
+    background: #86a5a9;
+    position: relative;
 }
 .rupee { 
     --font-size: 24px;
@@ -46,8 +48,18 @@ h1, h2, h3 {
     );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: inline-block;
-    
-  }
+}
+
+.hire-me {
+    font-family: hylia;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    background: plum;
+    color: black;
+}
 
 .main {
   max-width: 800px;
@@ -85,6 +97,11 @@ h1, h2, h3 {
   
 .main > *:first-child {
     border-top: none;
+}
+
+.article-heading {
+    position: relative;
+    left: -16px;
 }
 
 .experience-heading {
