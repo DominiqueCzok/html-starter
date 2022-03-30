@@ -22,8 +22,7 @@ h1, h2, h3 {
 .header {
     padding: 58px 16px;
     text-align: center;
-    background: rgb(236,189,68);
-    background: linear-gradient(0deg, rgba(236,189,68,1) 0%, rgba(176,224,230,1) 90%);
+    background: #86a5a9
 
 }
 
@@ -32,3 +31,21 @@ h1, h2, h3 {
   margin: 0 auto;
   padding: 16px;
 }
+.nav-link {
+    padding: 4px 8px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: #6b8487;
+}
+
+.nav-link:active {
+    color: white;
+    background-color: #6b8487;
+}
+
+.main > * {
+    border-top: 2px solid grey;
+  }
