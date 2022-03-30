@@ -26,28 +26,10 @@ h1, h2, h3 {
     background: #86a5a9;
     position: relative;
 }
-.rupee { 
-    --font-size: 24px;
-    --size: calc(var(--font-size) / var(--ratio));
-    --ratio: 1.5; /* 15px */
-    --carat: 0.7;
-    --color-main: red;
-    --color-second: #660808;
-    --color-third: #9c0a0a;
-    --color-fourth: #ff3c3c;
-    --color-fiveth:  #7d1818;
-    position: relative;
-    width: var(--size);
-    height: calc(var(--size) * var(--ratio));
-    background: linear-gradient(
-      90deg,
-      var(--color-third) 0%,
-      var(--color-main) 50%,
-      var(--color-third) 50.01%,
-      var(--color-second) 100%
-    );
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    display: inline-block;
+
+.image {
+    content: url(BotW_Heart_Container_Render.png);
+    center; 
 }
 
 .hire-me {
