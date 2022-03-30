@@ -27,9 +27,10 @@ h1, h2, h3 {
     position: relative;
 }
 
-.image {
-    content: url(BotW_Heart_Container_Render.png);
-    center; 
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .hire-me {
