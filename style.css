@@ -46,6 +46,22 @@ h1, h2, h3 {
     background-color: #6b8487;
 }
 
-.main > * {
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .main > * + * {
+    margin-top: 48px;
+  }
+  
+  .main > * {
     border-top: 2px solid grey;
   }
+  
+  .main > *:first-child {
+    border-top: none;
+  }
+
+  
