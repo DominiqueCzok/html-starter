@@ -87,3 +87,11 @@ h1, h2, h3 {
     border-top: none;
 }
 
+.experience-heading {
+    display: inline-block;
+}
+
+.experience-subheading {
+    display: inline-block;
+}
+
