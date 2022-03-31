@@ -51,6 +51,14 @@ h1, h2, h3 {
     src: url(hyliaSerifBeta-Regular.ttf);
 }
 
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+}
+
 .header {
     padding: 3rem 1rem;
     padding-top: 4,5rem;
@@ -60,7 +68,7 @@ h1, h2, h3 {
 }
 
 .heading-group {
-    font-size: 3rem;
+    font-size: 4rem;
 }
   
 .main-heading {
@@ -124,12 +132,10 @@ h1, h2, h3 {
   }
 
 .nav-link:hover {
-    color: black;
     background-color: #6b8487;
 }
 
 .nav-link:active {
-    color: white;
     background-color: #6b8487;
 }
 
@@ -144,7 +150,7 @@ h1, h2, h3 {
 }
   
 .main > * {
-    border-top: 0,125rem solid grey;
+    border-top: 0,125rem solid black;
     padding: 0 1rem;
 }
   
@@ -170,5 +176,19 @@ h1, h2, h3 {
       align-items: baseline;
       justify-content: space-between;
     }
-  }
+}
 
+.footer {
+    margin-top: 3rem;
+    background-color: #6b8487
+    padding: 2rem;
+}
+  
+.footer-text {
+    text-align: center;
+    margin: 0;
+}
+  
+.footer-link {
+    color: black;
+}
