@@ -130,6 +130,7 @@ a:active {
       margin-left: 1rem;
     }
   }
+}
 
 .nav-link:hover {
     background-color: #6b8487;
@@ -167,6 +168,7 @@ a:active {
     .experience-header {
         display: flex;
         flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 768px) {
