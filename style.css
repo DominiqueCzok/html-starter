@@ -1,14 +1,12 @@
-* {
+*,
+*:before,
+*::after {
 box-sizing: border-box;
 }
 
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bitter", serif;
     font-size: 16px;
-}
-
-body {
-    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,33 +20,19 @@ body {
       font-size: 20px;
     }
 }
+
+h1, 
+h2, 
+h3 {
+    font-family: hylia;
+}
+
 h2 {
     color: #99501E;
 }
 
-h1, h2, h3 {
-    font-family: hylia;
-}
-
-@media screen and (min-width: 992px) {
-    .hire-me {
-      position: fixed;
-    }
-}
-  
-@media print {
-    .hire-me {
-      display: none;
-    }
-  
-    .navigation {
-      display: none;
-    }
-}
-
-@font-face {
-    font-family: hylia;
-    src: url(hyliaSerifBeta-Regular.ttf);
+body {
+    margin: 0;
 }
 
 a,
@@ -75,6 +59,21 @@ a:active {
     font-size: 1em;
 }
   
+@media print {
+    .hire-me {
+      display: none;
+    }
+  
+    .navigation {
+      display: none;
+    }
+}
+
+@font-face {
+    font-family: hylia;
+    src: url(hyliaSerifBeta-Regular.ttf);
+}
+  
 .profession {
     font-size: 1,5em;
 }
@@ -95,6 +94,12 @@ a:active {
     border: #fdffe0 solid 2rem;
     background: #fdffe0;
     color: #633200;
+}
+
+@media screen and (min-width: 992px) {
+    .hire-me {
+      position: fixed;
+    }
 }
 
 .main {
@@ -125,11 +130,6 @@ a:active {
 
 .nav-link + .nav-link {
     margin-left: 1rem;
-  @media screen and (min-width: 768px) {
-    .nav-link + .nav-link {
-      margin-left: 1rem;
-    }
-  }
 }
 
 .nav-link:hover {
@@ -165,10 +165,8 @@ a:active {
 }
 
 .experience-heading {
-    .experience-header {
         display: flex;
         flex-direction: column;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -182,7 +180,7 @@ a:active {
 
 .footer {
     margin-top: 3rem;
-    background-color: #6b8487
+    background-color: #536f50;
     padding: 2rem;
 }
   
