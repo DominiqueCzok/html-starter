@@ -11,7 +11,7 @@ html {
 
 @media screen and (min-width: 768px) {
     html {
-      font-size: 18px;
+      font-size: 16px;
     }
 }
   
@@ -35,6 +35,10 @@ body {
     margin: 0;
 }
 
+*::selection {
+    background-color: #435254;
+}
+
 a,
 a:link,
 a:hover,
@@ -52,36 +56,20 @@ a:active {
 }
 
 .heading-group {
-    font-size: 4rem;
+    font-size: 2rem;
 }
   
 .main-heading {
     font-size: 1em;
 }
-  
-@media print {
-    .hire-me {
-      display: none;
-    }
-  
-    .navigation {
-      display: none;
-    }
+
+.profession {
+    font-size: 0,25em;
 }
 
 @font-face {
     font-family: hylia;
     src: url(hyliaSerifBeta-Regular.ttf);
-}
-  
-.profession {
-    font-size: 1,5em;
-}
-
-.flex { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
 }
 
 .hire-me {
@@ -101,12 +89,15 @@ a:active {
       position: fixed;
     }
 }
-
-.main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color: #fdffec;
+  
+@media print {
+    .hire-me {
+      display: none;
+    }
+  
+    .navigation {
+      display: none;
+    }
 }
 
 .navigation {
@@ -114,11 +105,11 @@ a:active {
     flex-direction: column;
     align-items: center;
 }
-  
+
 @media screen and (min-width: 768px) {
     .navigation {
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-evenly;
     }
 }
 
@@ -126,10 +117,6 @@ a:active {
     padding: 0,25rem 0,5rem;
     color: black;
     margin-top: 3rem;
-}
-
-.nav-link + .nav-link {
-    margin-left: 1rem;
 }
 
 .nav-link:hover {
@@ -140,8 +127,27 @@ a:active {
     background-color: #6b8487;
 }
 
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
 .main {
-    max-width: 80ch;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fdffec;
+}
+
+@media  and {min-width: 768px); { 
+    .nav-link + .nav-link {
+    margin-left: 1rem;
+    }
+}
+
+.main {
+    max-width: 60ch;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -149,7 +155,13 @@ a:active {
 .main > * + * {
     margin-top: 3rem;
 }
-  
+
+@media screen and (min-width: 768px) {
+    .main > * + * {
+        margin-top: 5rem;
+    }
+}
+
 .main > * {
     border-top: 0,125rem solid black;
     padding: 0 1rem;
@@ -165,8 +177,8 @@ a:active {
 }
 
 .experience-heading {
-        display: flex;
-        flex-direction: column;
+     display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -187,6 +199,7 @@ a:active {
 .footer-text {
     text-align: center;
     margin: 0;
+    color: black;
 }
   
 .footer-link {
